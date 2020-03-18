@@ -2,18 +2,18 @@ header {
     background: lightblue;
     border-radius: 15px;
     text-align: center;
-    display: inline-block;
-    width: 100%;
-
 }
 header h1 {
     text-align: center;
+    display: inline-block;
     width: 30%;
+    font-size: 40px;
 }
 .buscador {
-    width: auto;
     text-align: end;
     padding-right: 5em;
+    display: inline-block;
+    align-items: center;
 }
 .buscador input{
     width: 500px;
@@ -36,6 +36,9 @@ header h1 {
 .imagenes img {
     height: 300px;
 }
+.form h2 {
+    text-align: center;
+}
 .copyright {
     background: black;
     color: white;
@@ -56,4 +59,3 @@ header h1 {
     justify-content: center;
     
 }
-.form 
