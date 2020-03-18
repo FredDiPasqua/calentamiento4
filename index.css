@@ -4,10 +4,12 @@ header {
     text-align: center;
     display: inline-block;
     width: 100%;
+
 }
 header h1 {
-    width: 30%;
     text-align: center;
+    display: inline-block;
+    width: 30%;
 }
 .buscador {
     width: auto;
@@ -18,6 +20,19 @@ header h1 {
     width: 500px;
     height: 20px;
     align-items: center;
+}
+.buscador button {
+    background-color: goldenrod;
+    font-weight: bold;
+    border-color: gold;
+    height: 30px;
+}
+.encabezado{
+    text-align: center;
+}
+.imagenes {
+    display: flex;
+    justify-content: space-between;
 }
 .imagenes img {
     height: 300px;
