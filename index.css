@@ -8,6 +8,28 @@ header h4 {
 }
 
 .imagenes img {
-    width: 250px;
+
     height: 300px;
 }
+
+.copyright {
+    background: black;
+    color: white;
+    text-align: end;
+    padding-right: 20px;
+}
+.form {
+    background: greenyellow;
+    border-radius: 15px;
+
+}
+.form p {
+    text-align: center;
+    font-size: large;
+}
+.form form {
+    display: flex;
+    justify-content: center;
+    
+}
+.form 
