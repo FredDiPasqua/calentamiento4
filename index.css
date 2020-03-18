@@ -2,16 +2,26 @@ header {
     background: lightblue;
     border-radius: 15px;
     text-align: center;
+    display: inline-block;
+    width: 100%;
 }
-header h4 {
-    padding-bottom: 10px;
+header h1 {
+    width: 30%;
+    text-align: center;
 }
-
+.buscador {
+    width: auto;
+    text-align: end;
+    padding-right: 5em;
+}
+.buscador input{
+    width: 500px;
+    height: 20px;
+    align-items: center;
+}
 .imagenes img {
-
     height: 300px;
 }
-
 .copyright {
     background: black;
     color: white;
